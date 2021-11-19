@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Links</title>
     <link rel="stylesheet" href="css files/bulma.css">
+
+
 </head>
 
 <body>
@@ -15,10 +17,10 @@
                 Dashboard Atendimento
             </h1>
             <p class="subtitle">
-                 <strong>Redes Empresarias & Fibras</strong>!
+                <strong>Redes Empresarias & Fibras</strong>!
             </p>
-            
-            <div class="tile is-ancestor">
+
+            <div class="tile is-ancestor ">
                 <div class="tile is-vertical is-8">
                     <div class="tile">
                         <div class="tile is-parent">
@@ -26,21 +28,29 @@
                                 <p class="title">Produtos Empresariais</p>
                                 <p class="subtitle">Radios</p>
                                 <ul>
-                                    <li>Coffee</li>
-                                    <li>Tea</li>
-                                    <li>Milk</li>
-                                  </ul>
-                                  <br>
-                                  <p class="subtitle">Access Points</p>
-                                
+                                    <li>Wom 5A Mimo</li>
+                                    <li>APC-5A-90</li>
+                                    <li>APC-5A-23</li>
+                                </ul>
+                                <br>
+                                <p class="subtitle">Access Points</p>
+                                <ul>
+                                    <li>AP 360</li>
+                                    <li>AP 1350 </li>
+                                    <li>AP 1750 </li><button class="button is-primary modal-button"
+                                        id="botaomodal">MODAL</button>
+                                </ul>
+
                             </article>
                         </div>
                         <div class="tile is-parent">
                             <article class="tile is-child notification is-light">
                                 <p class="title">Middle tile</p>
                                 <p class="subtitle">With an image</p>
-                                <div><p>olá</p> </div>
-                                
+                                <div>
+                                    <p>olá</p>
+                                </div>
+
                             </article>
                         </div>
                     </div>
@@ -71,13 +81,20 @@
                 </div>
             </div>
 
-            <button class="button is-primary">
-                Button
-            </button>
-
+            <button class="button is-primary" id="botaomodal">MODAL</button>
 
         </div>
     </section>
-</body>
 
+    <div class="modal">
+        <div class="modal-background"></div>
+        <div class="modal-content p-6 has-background-white">
+            TESTE
+        </div>
+        <button class="botao-fechar modal-close is-large" aria-label="close"></button>
+    </div>
+
+    <script src="css files/index.js"></script>
+
+</body>
 </html>
